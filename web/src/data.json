@@ -1,0 +1,9 @@
+{
+  "S3_BUCKET": "frigate-ship",
+  "REGION": "us-west-2",
+  "ACCESS_KEY": "AKIAWNNYKZ55YP3LHXWY",
+  "SECRET_ACCESS_KEY": "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",
+  "title": "Hot Dog or Not Hot Dog?",
+  "author": "Jian Yang",
+  "description": "Our long national nightmare is over: Thanks to HBO and Silicon Valley there's finally an app that will tell you if the object you pointed your phone's camera at is a hot dog or not. For fans of the show, it's a cute joke, but everyone else might be a little puzzled. As a brief bit of background, T.J. Miller's character Erlich Bachman accidentally invested in an app he thought had something to do with Oculus, when, in actuality, it was an application with recipes for preparing octopus rather than anything to do with virtual reality. A common mistake, to be sure."
+}
