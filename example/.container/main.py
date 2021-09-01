@@ -1,4 +1,4 @@
-from frigate.wrapper import frigate_model
+from frigate.wrapper.wrapper import frigate_model
 
 @frigate_model("input.jpg", "input.jpg")
 def main():
