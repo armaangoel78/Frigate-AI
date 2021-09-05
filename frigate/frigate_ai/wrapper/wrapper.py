@@ -6,11 +6,11 @@ s3 = boto3.client('s3')
 
 def frigate_model(inputDataPath: str, outputDataPath: str):
     def frigate_model_sub(function):
-        def wrapper(inputS3, *args, **kwargs):
+        def wrapper(bucket: str, file: str, *args, **kwargs):
             try:
-                s3.download_file('frigate-ship', 'mark.jpg', inputDataPath)
+                s3.download_file(bucket, file, inputDataPath)
                 function()
-                response = s3.upload_file(outputDataPath, 'frigate-ship', 'markOutput.jpg')
+                response = s3.upload_file(outputDataPath, bucket, 'output.json')
             except ClientError as e:
                 logging.error(e)
                 return False

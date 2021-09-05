@@ -5,6 +5,9 @@ bin
 .env
 
 *.pyc
+*.egg-info
+.container
+dist
 
 # dependencies
 node_modules
